@@ -3,7 +3,8 @@ header{
 }
 
 body html{ 
-    padding: 0%;
+    padding: 0;
+    margin:0;
     
 }  
 
@@ -39,11 +40,14 @@ body html{
 }
     
 
-.menu{
-    width: 100%;
+/*banner*/
+.banner .card-img-top{
+    margin-bottom: 25px;
+    width: auto;
+    height: auto;
+    position: relative;
 }
 
-/*banner*/
 .div-cards{
 
     margin: 0;
@@ -53,47 +57,49 @@ body html{
 
 }
 .div-cards .card{
-    margin-top: 25px;
+    margin: auto;
     width: fit-content;
     background-color: rgb(255,255,255,0.1);
     border-color: rgb(255,255,255,0.1);
-    align-self: center;
+    
     
 }
 
 .texto-mapa{
     margin-top: 20px;
-    background: white;
+    background-color: rgb(255,255,255,0.1);
+    border-color: rgb(255,255,255,0.1);
     text-align: center;
+    color:white;
     
 }
 
+
+.div-mapa{
+    height: auto;
+    padding: 1px;
+}
 
 .mapa{
 
     overflow:hidden;
 
-    padding-bottom:56.25%;
+    padding-bottom:46.25%;
 
     position:relative;
+}
 
-    height:0;
+
+.mapa iframe{
+    
+    height:80%;
 
     width: 100%;
 
-}
-
-.mapa iframe{
-
-    left:0;
-
-    top:0;
-
-    height:80%;
-
-    width:100%;
+    margin-bottom: 0;
 
     position:absolute;
+   
 
 }
 
@@ -135,3 +141,29 @@ body html{
 /*Clinica veterinária Agro Costa, o melhor para seu pet*/
 /*Horario de funcionamento*/
 /*whatsapp*/
+
+/*
+
+Exemplo de midia query
+
+
+import styled from "styled-components";
+
+export const Container = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const Description = styled.p`
+  text-align: center;
+  color: ${({ theme }) => theme.colors.gray60};
+  max-width: 800px;
+  margin-bottom: 5rem;
+  span {
+    color: #00ff19;
+  }
+  @media (max-width: 991.98px) {
+    width: 100%;
+  }
+`;*/
