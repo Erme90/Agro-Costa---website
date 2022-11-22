@@ -1,5 +1,5 @@
 header{
-    max-width: 100%;
+    max-width: 50%;
 }
 
 body html{ 
@@ -27,14 +27,6 @@ body html{
         width: 12rem; 
         height: 19rem;
     }
-
-    
-
-    .navbar-collapse{
-        justify-content: end;
-
-    }
-
     
 
 }
@@ -74,17 +66,24 @@ body html{
     
 }
 
+.texto-powered{
+    background-color: rgb(255,255,255,0.1);
+    border-color: rgb(255,255,255,0.1);
+    text-align: center;
+    color:white;
+    position: relative;
+}
 
 .div-mapa{
-    height: auto;
-    padding: 1px;
+    height: auto;    
 }
+
 
 .mapa{
 
     overflow:hidden;
 
-    padding-bottom:46.25%;
+    padding-bottom:56.25%;
 
     position:relative;
 }
