@@ -3,7 +3,7 @@ header{
 }
 
 body html{ 
-    padding: 5%;
+    padding: 0%;
     
 }  
 
@@ -47,38 +47,18 @@ body html{
 .div-cards{
 
     margin: 0;
-    padding: 5px;  
+    padding: 0px;  
     width: 100%;
-    
-   
+       
 
 }
-.div-cards #card-1{
+.div-cards .card{
     margin-top: 25px;
     width: fit-content;
-
-}
-
-.div-cards #card-2{
-    margin-top: 25px;
-    width: fit-content;
-}
-
-.div-cards #card-3{
-    margin-top: 25px;
-    width: fit-content;
-}
-
-.div-cards #card-4{
-    margin-top: 25px;
-    width: fit-content;
-}
-
-.card{
     background-color: rgb(255,255,255,0.1);
     border-color: rgb(255,255,255,0.1);
-
-
+    align-self: center;
+    
 }
 
 .texto-mapa{
