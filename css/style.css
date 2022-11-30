@@ -1,6 +1,4 @@
-header{
-    max-width: 50%;
-}
+
 
 body html{ 
     padding: 0;
@@ -22,16 +20,23 @@ body html{
   }
 
 
-@media screen and (min-width:1200px){
-    .card{
-        width: 12rem; 
-        height: 19rem;
+@media screen and (max-width:720px){
+
+        .div-cards .card{
+        margin: auto;
+        width: 18rem;
+        background-color: rgb(255,255,255,0.0);
+        border-color: rgb(255,255,255,0.0);    
     }
+
+    .div-cards img{
+        width: 100%;
+        height: 100%;        
     
-    .banner .card-img-top{
-        width: auto;
-        height: auto;
-        position: relative;
+    }
+
+    .cabeçalho img{
+        width: 100%;
     }
 
 }
@@ -39,24 +44,40 @@ body html{
 
 /*banner*/
 
-
-.div-cards{
-
-    margin: 0;
-    padding: 0px;  
-    width: 100%;
-       
-
+.cabeçalho{
+    width: auto;  
 }
+
+.cabeçalho .banner{
+    width: auto;
+    text-align: center;
+}
+
+.cabeçalho .tags{
+    text-align: center;
+}
+
+/* CARDS*/
 .div-cards .card{
     margin: auto;
     width: fit-content;
+    max-width: fit-content;
+    text-align: center;
     background-color: rgb(255,255,255,0.0);
-    border-color: rgb(255,255,255,0.0);
-    
-    
+    border-color: rgb(255,255,255,0.0);    
 }
 
+
+
+.div-cards img{
+    width: 100%;
+    height: 100%;        
+
+}
+
+
+
+/*MAPA*/
 .texto-mapa{
     margin-top: 20px;
     background-color: rgb(255,255,255,0.1);
@@ -66,9 +87,6 @@ body html{
     
 }
 
-#rodape{
-    background-color: #55caf5;
-}
 
 .texto-powered{
     background-color: rgb(255,255,255,0.0);
@@ -102,39 +120,9 @@ body html{
 
 }
 
-
-
-
-#banner{
-    padding: 0%;
-    width: 100%;
+#rodape{
+    background-color: #55caf5;
 }
-
-#banner img{
-    width: 100%;
-    height: 100%;        
-
-}
-
-/*
-#whatsapp-btn{
-    position:fixed;
-    right: 15px;
-    bottom: 100px;
-    z-index: 1;
-    
-}
-
-#whatsapp-fixed{
-    position: absolute;
-    right: 5%;
-}*/
-
-
-
-
-
-
 
 
 /*Clinica veterinária Agro Costa, o melhor para seu pet*/
@@ -162,7 +150,7 @@ export const Description = styled.p`
   span {
     color: #00ff19;
   }
-  @media (max-width: 991.98px) {
+   {
     width: 100%;
   }
 `;*/
