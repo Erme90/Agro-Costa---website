@@ -28,17 +28,17 @@ body html{
         height: 19rem;
     }
     
+    .banner .card-img-top{
+        width: auto;
+        height: auto;
+        position: relative;
+    }
 
 }
     
 
 /*banner*/
-.banner .card-img-top{
-    margin-bottom: 25px;
-    width: auto;
-    height: auto;
-    position: relative;
-}
+
 
 .div-cards{
 
@@ -51,8 +51,8 @@ body html{
 .div-cards .card{
     margin: auto;
     width: fit-content;
-    background-color: rgb(255,255,255,0.1);
-    border-color: rgb(255,255,255,0.1);
+    background-color: rgb(255,255,255,0.0);
+    border-color: rgb(255,255,255,0.0);
     
     
 }
@@ -66,16 +66,16 @@ body html{
     
 }
 
+#rodape{
+    background-color: #55caf5;
+}
+
 .texto-powered{
-    background-color: rgb(255,255,255,0.1);
-    border-color: rgb(255,255,255,0.1);
+    background-color: rgb(255,255,255,0.0);
+    border-color: rgb(255,255,255,0.0);
     text-align: center;
     color:white;
     position: relative;
-}
-
-.div-mapa{
-    height: auto;    
 }
 
 
@@ -83,15 +83,15 @@ body html{
 
     overflow:hidden;
 
-    padding-bottom:56.25%;
-
+    padding-bottom:26.25%;
+    
     position:relative;
 }
 
 
 .mapa iframe{
     
-    height:80%;
+    height:100%;
 
     width: 100%;
 
