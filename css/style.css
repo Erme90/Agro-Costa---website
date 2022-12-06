@@ -8,44 +8,43 @@ body{
 
 .parallax {
     /* imagem usada */
-    background: url("../img/fundo.png") 10% fixed;
+    background-image: url("../img/fundo.png");
   
-    /* configure uma altura especifica */
-    height: 100%;
+
     
    
     /* cria o efeito de scroll do parallax */
     background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
-/* Se a largura for menor que 720 pixels faça:*/
-@media screen and (max-width:720px){
 
-    .cabeçalho img{
-        width: 100%;   
-    }
-
-    .tags img{
-        border-radius: 20px; 
-    }
-
-    .cabeçalho{
-        padding: 15px;
-    }
-
-    .div-cards .car{
-        width: 100%;
-        background-color: rgb(255,255,255,0.0);
-        border-color: rgb(255,255,255,0.0);    
-    }
-
-    .div-cards img{
-        width: 21rem;
-        padding-left: 27px;
-    }
+header .banner{
+    text-align: center;
 }
+
+header .tags{
+    text-align: center;
+   
+}
+
+.tags img{
+    border-radius: 25px;
+}
+
+main .div-cards{
+    text-align: center;
+
+}
+
+main .div-cards img{
+    padding: 12px;
+}
+
+
+
 
 
 /*MAPA*/
@@ -96,6 +95,50 @@ body{
     background-color: #55caf5;
 }
 
+/* Se a largura for menor que 720 pixels faça:*/
+@media screen and (max-width:720px){
+
+    .cabeçalho img{
+        width: 100%;   
+    }
+
+    .tags img{
+        border-radius: 20px; 
+    }
+
+    .cabeçalho{
+        padding: 15px;
+    }
+
+    .div-cards .card{
+        width: 100%;
+        background-color: rgb(255,255,255,0.0);
+        border-color: rgb(255,255,255,0.0);    
+    }
+
+    .div-cards .card img{
+        width: 80%;
+        padding-left: 27px;
+    }
+
+    #card-2{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #card-3{
+        padding: 0;
+        margin: 0;
+    }
+    
+    #card-5{
+        margin-top: 20px;
+    }
+    
+    #card-6{
+        margin-top: 25px;
+    }
+}
 
 /*Clinica veterinária Agro Costa, o melhor para seu pet*/
 /*Horario de funcionamento*/
