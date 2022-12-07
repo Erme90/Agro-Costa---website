@@ -131,38 +131,7 @@ section div{
 
     section img{
         width: 100%;
+               
     }
 
-    section{
-        position: relative;
-        margin-right: 35px;
-    }
-
-    #card-1{
-        margin-top: 10px;
-        margin-bottom: 25px;
-    }
-    #card-2{
-        
-        margin-bottom: 0px;
-        padding-bottom: 0;
-    }
-    #card-3{
-     
-        margin-top: 0px;
-        margin-bottom:0px;
-        
-    }
-
-    #card-4{
-        margin-top: 0px;
-        margin-bottom: 35px;
-    }
-    
-    #card-5{
-        margin-bottom: 30px;
-    }
-    
-    #card-6{
-    }
 }
