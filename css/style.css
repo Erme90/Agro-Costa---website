@@ -21,30 +21,6 @@ body{
   }
 
 
-  @media screen and (max-width:720px){
-    .cabeçalho{
-        padding: 10px;
-    }
-
-    .cabeçalho img{
-        width: 100%;   
-    }
-    
-    section img{
-        width: 100%;
-    }
-    section{
-        padding: 5%;
-    }
-
-    .card2{
-        margin-top: 50px;
-    }
-    .card5{
-        margin-top: 70px;
-        margin-bottom: 70px;
-    }
-}
 
 
 
@@ -71,12 +47,35 @@ header .tags, .banner{
 
 section{
     padding: 3%;
-    
+    text-align: center;
+   
 }
 
 section img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 1005px;
+    
+    
+    
+}
+section .card1{
+    margin: 10px 0 150px 0;
+    
+}
+
+section .card2{
+    margin: 0 20px 0 20px;
+}
+
+section .card3{
+    margin: 0;
+}
+
+section .card4{
+    margin: 0 20px 85px 20px;
+}
+
+section .card5{
+    margin: 0px 20px 95px 20px;
 }
 
 
@@ -133,6 +132,27 @@ section img{
     background-color: #55caf5;
 }
 
+
+@media screen and (max-width:720px){
+    .cabeçalho{
+        padding: 10px;
+    }
+
+    .cabeçalho img{
+        width: 100%;   
+    }
+    
+    section img{
+        width: 100%;
+        
+    }
+
+    section .card1{
+        margin: 10px 0 50px 0;
+        
+    }
+    
+}
 
 /* Se a largura for menor que 1200 pixels faça:*/
 
